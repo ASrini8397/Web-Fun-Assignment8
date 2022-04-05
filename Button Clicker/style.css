@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient( rgb(0, 102, 255), rgb(118, 184, 238), blue);
+    background-position: center; 
+}
+
+.Header {
+    background-image: linear-gradient(rgb(8, 214, 250), rgb(19, 115, 241));  
+    height: 80px;
+    width: 100% auto;
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.headerbars {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.headertitle {
+    margin-left: 20px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.bar{
+    width: 350px;
+    height: 30px;
+    color: black;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #1762b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+
+.MainBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: top;
+    margin: 5px 5px;
+    
+    
+}
+.CenterBody{
+    display: flex;
+    width: 40%;
+    height: 600px;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.FirstBody{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.SecondBody{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.SideBody{
+    width: 25%;
+    height: 200px;
+    margin: 25px;
+    border: 5px solid black;
+    background-color: white;
+}
+.List{
+    list-style-type: none;
+    margin: 10px, 0;
+    
+    justify-content: space-evenly;
+    
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    margin-left: 10px;
+    padding:10px;
+}
+.likes{
+    background-color: rgb(245, 211, 21);
+    color: black;
+    width: 80px;
+    height: 30px;
+    box-shadow: 5px 5px #000000;
+}
+.Definition{
+    background-color: rgb(0, 126, 57);
+    color: black;
+    width: 120px;
+    height: 30px;
+    box-shadow: 5px 5px #000000;
+}
+
+
+
+
+
